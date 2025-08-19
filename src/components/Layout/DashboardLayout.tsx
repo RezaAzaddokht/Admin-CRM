@@ -19,7 +19,7 @@ const DashboardLayout: React.FC<DashboardLayoutProps> = ({ children }) => {
       <div className="flex-1 flex flex-col">
         <Navbar />
         
-        <main className="flex-1 p-6">
+        <main style={{ zoom: 0.75 }} className="flex-1 p-6">
           {children}
         </main>
       </div>
